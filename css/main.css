@@ -1,0 +1,81 @@
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+html {
+    height: 100%;
+}
+a, a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    background: linear-gradient(-45deg, #D15AC7, #25D192);
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background: rgba(255, 255, 255, .5);
+    color: #000;
+}
+header h1 {
+    margin: 5px 0 5px 40px;
+    font-size: 30px;
+    font-weight: 100;
+}
+header ul {
+    display: flex;
+    margin: 0 0 0 55px;
+    padding: 0;
+    list-style-type: none;
+}
+header li {
+    margin: 0 15px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+main div{
+    font-size: 100px;
+    animation: fadeIn 2s ease 0.2s 1 normal;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+footer small {
+    padding:  0 5px 5px 0;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    main div{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 480px) {
+    main div{
+        font-size: 45px;
+    }
+    small {
+        font-size: 15px;
+    }
+}
