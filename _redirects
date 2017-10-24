@@ -1,3 +1,8 @@
 http://mt-kage.com/* https://mt-kage.com/:splat 301!
 http://www.mt-kage.com/* https://mt-kage.com/:splat 301!
 https://www.mt-kage.com/* https://mt-kage.com/:splat 301!
+
+http://mt-kage.net/* https://mt-kage.com/:splat 301!
+http://www.mt-kage.net/* https://mt-kage.com/:splat 301!
+https://mt-kage.net/* https://mt-kage.com/:splat 301!
+https://www.mt-kage.net/* https://mt-kage.com/:splat 301!
